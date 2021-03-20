@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br>
+<input type="text" id="input" onchange="them()" placeholder="Thêm spham vào danh sách">
+<button onclick="MakeList()">thêm</button>
+<br><br><br>
+<table border="1" width="500px">
+
+    <tr>
+        <th>Danh Sách</th>
+        <th width="85px">action</th>
+    </tr>
+
+    <tbody id="hienthi">
+    <tr><td></td><td>
+        <button onclick="xoa()">Xoá</button>
+        <button onclick="sua()">sửa</button></td></tr>
+    </tbody>
+
+</table>
+
+</body>
+<script src="quan-ly-spham.js"></script>
+
+</html>
